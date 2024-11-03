@@ -38,8 +38,7 @@ I used power BI for the data visualization in this project, cards, tables and ch
 =Average(revenue) 
 ```
 select * from SALES
-select product, sum(revenue)as totalsales from Sales
-Group by product
+where condition = True
 ```
 Measure 
 Count of product=count(sales(product))
@@ -57,6 +56,7 @@ Regional Performance
 ![REGIONAL PERFORMANCE](https://github.com/user-attachments/assets/8b0f1463-d991-4c62-a837-a824f1cd91b0)
 
 
+
 - The South region leads with 475,000 in sales(32% of total) and 4,675,000 in revenue(44% of total)
 - The North region follows with 425,000 in sales(29% of total) and 1,950,00 in revenue(18% of total)
 - The East and West regions have opportunities for growth.
@@ -65,14 +65,16 @@ Product sales
 ![PRODUCT SALES](https://github.com/user-attachments/assets/dcb92849-62ae-4572-afee-1d6172632df6)
 
 
+
 Top selling products
 Shoes has sales of 350,000, 
 Jacket has the sales of 312,500
 Shirt has the sales of 275,000.
-Gloves and Socks show potential for growth
+Gloves, Hats and Socks show potential for growth
 
 Monyhly sales trends
 ![MONTHLY SALES TRENDS](https://github.com/user-attachments/assets/af350e37-a870-428e-84da-d7a2be16bdac)
+
 
 
 Februrary 2024 shows the highest sales at 150,000 driven by shoes.
@@ -100,7 +102,36 @@ East Region: 72% decline from 2023 t0 2024
 - Optimize inventory management for seasonal demand.
 
 ### Visualization
+
+Excel
+
+![revenue by region](https://github.com/user-attachments/assets/56a7248b-6044-4270-a3a3-10cce32d56b5)
+
+![total sales by product](https://github.com/user-attachments/assets/08d6e1af-60cb-462a-abc2-d1e333fd982e)
+
+![total sales by region](https://github.com/user-attachments/assets/60949c79-96e0-4bba-a9f4-a0ef7ce0ff65)
+
+![Average sales](https://github.com/user-attachments/assets/37397f3d-615d-44c9-8145-38d844244926)
+
+![regional performance chart](https://github.com/user-attachments/assets/841043e6-3ce3-4aea-ad49-419bff1d7304)
+
+![monthly sales 2023](https://github.com/user-attachments/assets/a2c7138c-5ded-46f5-bf33-f89c4bc09b7c)
+
+![monthly sales 2024](https://github.com/user-attachments/assets/8a655eaf-e374-4de5-bbbd-a6c2332fc71e)
+
+![top products](https://github.com/user-attachments/assets/c3f42b9c-cfd2-44d5-a207-8c050a685423)
+
+
+SQL
+
+![project 1 query  1-5](https://github.com/user-attachments/assets/bc443735-6e59-4417-99e3-e4a2486f763b)
+
+![project 1 query 6-8](https://github.com/user-attachments/assets/5ed81078-74e5-4577-8ef0-f5cd656b247b)
+
+POWER BI
+
 ![SALES ANALYSIS](https://github.com/user-attachments/assets/f61974ca-0e91-4701-ad1f-e471f67986fd)
+
 
 ![SALES HIERARCHY](https://github.com/user-attachments/assets/68acd0f4-1640-49fa-9568-85f9bb878bbb)
 
