@@ -34,7 +34,7 @@ Power BI:
 Power BI is a business analytics service by microsoft.
 I used power BI for the data visualization in this project, cards, tables and charts.
 
-### Key Metric
+### Calculation of Key Metric
 =Average(revenue) 
 ```
 select * from SALES
